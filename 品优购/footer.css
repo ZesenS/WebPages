@@ -1,0 +1,79 @@
+#footer {
+    margin-top: 30px;
+    height: 500px;
+
+}
+#footer > div:first-child {
+    height: 140px;
+    width: 100%;
+    padding-left: 40px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#footer > div:first-child > div {
+    float: left;
+    width: calc(100% / 4);
+    height: 100%;
+    box-sizing: border-box;
+    padding: 40px 0 0 10px;
+}
+#footer > div:first-child > div > .icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background: url(./images/icons.png) no-repeat -251px -2px;
+    vertical-align: top;
+}
+
+#footer > div:first-child > div > div:last-child {
+    float: left;
+    font-size: 14px;
+    margin: 12px 0 0 6px;
+}
+
+
+#footer > div:nth-child(2) {
+    height: 180px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 50px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#footer > div:nth-child(2) dl {
+    float: left;
+    margin-right: 100px;
+}
+
+#footer > div:nth-child(2) dl dt {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666666;
+}
+
+#footer > div:nth-child(2) dl dd {
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+#footer > div:nth-child(2) > div{
+    float: left;
+    width: 100px;
+    height: 120px;
+
+}
+
+#footer > div:nth-child(2) > div h4 {
+    text-align: center;
+}
+
+#footer > div:nth-child(2) > div img {
+    margin-left: 5px;
+}
+
+#footer .copy_right {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
